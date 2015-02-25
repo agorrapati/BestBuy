@@ -32,7 +32,7 @@ import android.widget.SimpleAdapter;
 public class MainActivity extends Activity 
 {
 
-	private static final String SERVICE_URL = "http://api.remix.bestbuy.com/v1/categories?format=json&apiKey=tdrrtdw3mm8vx5ven8ds4tbw&show=id";
+	private static final String SERVICE_URL = "http://api.remix.bestbuy.com/v1/categories?format=json&apiKey=";
 	private static final String TAG = "BEST BUY";
 	private static final String TAG_VER = "ID";
 	private static final String TAG_NAME = "Name";
@@ -46,7 +46,7 @@ public class MainActivity extends Activity
 		setContentView(R.layout.activity_main);
 		lv=(ListView)findViewById(R.id.listView1);
 		//oslist = new ArrayList<HashMap<String, String>>();
-		String sampleURL = SERVICE_URL + "tdrrtdw3mm8vx5ven8ds4tbw&show=id";		 
+		String sampleURL = SERVICE_URL + "97s4ke24huucg9q5qkwef8nc&show=id";
         WebServiceTask wst = new WebServiceTask(WebServiceTask.GET_TASK, this, "GETting data...");        
         wst.execute(new String[] { sampleURL });
 		
