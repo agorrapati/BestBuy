@@ -1,0 +1,2 @@
+F:\Android\app\build\intermediates\classes\debug
+F:\Android\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0-83893e5003e4a4d0b935f1d6f17343668d4cfd08.jar
